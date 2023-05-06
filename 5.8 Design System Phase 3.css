@@ -1,0 +1,91 @@
+.primary-button{
+    color: $fcds-color-text-tertiary;
+    font: $fcds-heading-size-h4;
+    border: $fcds-button-border-color-primary;
+    border-radius: 2px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.primary-button:hover{
+    background-color: $fcds-button-hover-primary;
+    transition-duration: 0.4s;
+}
+
+.main-navigation{
+    background-color: $fcds-color-light-tan;
+    display: inline;
+    height: 50px;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.main-navigation li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.main-navigation li a{
+    color: $fcds-color-text-primary;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.main-navigation li a:hover{
+    background-color: $fcds-color-tan;
+}
+
+input[type=text]{
+    width: 30%;
+    box-sizing: border-box;
+    border: $fcds-button-border-color-secondary;
+    border-radius: 2px;
+}
+
+input[type=text]:focus {
+    border: $fcds-button-border-color-primary;
+}
+
+.error input[type=text] {
+    background-color: $fcds-form-border-color-error;
+}
+
+h3{
+    font-family: 'Kaisei Tokumin', serif;
+    color: $fcds-color-text-primary;
+    font-weight: $fcds-heading-weight-h3;
+}
+
+p{
+    font-family: 'Kaisei Tokumin', serif;
+    color: $fcds-color-text-primary;
+    font-weight: $fcds-body-text-weight;
+    line-height: $fcds-body-text-spacing;
+}
+
+.card-title{
+    font-family: 'DM Sans', sans-serif;
+    color: $fcds-color-text-primary;
+    font-weight: $fcds-heading-weight-h3;
+    font: $fcds-heading-size-h3;
+}
+
+.card-subtitle{
+    font-family: 'DM Sans', sans-serif;
+    color: $fcds-color-text-primary;
+    font-weight: $fcds-heading-weight-h5;
+    font: $fcds-heading-size-h5;
+}
+
+.card-description{
+    font-family: 'DM Sans', sans-serif;
+    color: $fcds-color-text-primary;
+    font-weight: $fcds-heading-weight-h4;
+    font: $fcds-heading-size-h4;
+}
